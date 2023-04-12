@@ -39,7 +39,7 @@ const calculateInflation = async (contractAniversary: string) => {
       .minus(1)
       .toNumber();
   }, 0);
-  return inflation * 100;
+  return inflation + 1;
 }
 
 const main = async () => {
