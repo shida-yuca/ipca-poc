@@ -43,4 +43,4 @@ const calculateInflation = async (contractAniversary: string) => {
   return inflation;
 }
 
-console.log(calculateInflation('01/04/2023'));
+calculateInflation('01/04/2023');
